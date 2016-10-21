@@ -1,0 +1,75 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/*Esto es para resetear los navegadores*/
+
+body{
+  font-size: 62.5%;
+}
+
+h1{
+  width: 300px;
+  margin:25px auto;
+  text-align: center;
+  /*background-color: #db2727;*/
+  background:-ms-linear-gradient(top, #0032e4,#12c0d7);
+  background:-webkit-linear-gradient(top, #0032e4,#12c0d7);
+  background:-o-linear-gradient(top, #0032e4,#12c0d7);
+  background:-moz-background:-ms-linear- gradient(top, #0032e4,#12c0d7);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: #1b98df 5px 5px 5px;
+  color:white;
+  text-shadow: white 2px   2px 5px;
+  font:normal 2.4em verdana,arial;
+}
+h2{
+  font:bold;
+  font-family: fantasy;
+  margin-left: 20px;
+  font-size: 2em;
+}
+section{
+  border-top: 1px dashed #5e706c;
+  width: 90%;
+  margin: 10px auto;
+  padding-top: 10px;
+
+}
+figure{
+  float:left;
+
+}
+
+figure img{
+  padding: 4px;
+  background-color: #5e5c5c;
+  box-shadow: #6f6565 5px 5px 10px;
+  border-radius: 15px;
+  -webkit-transition:-webkit-transform 0.3s;
+}
+figure img:hover{
+  transform: scale(1.2);
+}
+figcaption{
+  text-align: center;
+  font-size: 1.5em;
+  padding: 15px
+}
+footer{
+  clear: both;
+  font-family: sans-serif;
+  margin-left: 20px ;
+  font-size: 1.7em;
+  padding-top: 20px;
+}

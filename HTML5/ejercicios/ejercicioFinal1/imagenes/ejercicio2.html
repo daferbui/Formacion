@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio_java_imagenes</title>
+    <script>
+        function ejecuta() {
+            for (var i = 0; i < 7; i++) {
+                fotos[i] = document.getElementsByTagName("img")[i];
+            }
+            fotos[i].addEventListener("click", aviso, false);
+            fotos[i].addEventListener("mouseover", aumenta, false);
+            fotos[i].addEventListener("mouseout", disminuye, false);
+        }
+
+        function aviso() {
+            alert("esto es una flor")
+        }
+
+        function aumenta() {
+            fotos.height = 225;
+            fotos.width = 225;
+        }
+
+        function disminuye() {
+            fotos.height = 200;
+            fotos.width = 200;
+        }
+        window.onload = ejecuta;
+        <!-- Place this tag in your head or just before your close body tag. -->
+        async defer src = "https://buttons.github.io/buttons.js" >
+    </script>
+
+</head>
+
+<body>
+    <figure><img src="1.jpg"></figure>
+    <figure><img src="2.jpg"></figure>
+    <figure><img src="3.jpg"></figure>
+    <figure><img src="4.jpg"></figure>
+    <figure><img src="5.jpg"></figure>
+    <figure><img src="6.jpg"></figure>
+    <!-- Place this tag where you want the button to render. -->
+    <a class="github-button" href="https://github.com/ntkme/github-buttons/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download ntkme/github-buttons on GitHub">Download</a>
+</body>
+
+</html>

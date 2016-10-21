@@ -1,0 +1,42 @@
+body{
+background-color: rgba(238, 242, 25, 0.63);
+background-image: url("imagenes/fondo.jpg");
+background-repeat: repeat-y;
+background-position: center top;
+width: 750px;
+padding-left: 550px;
+}
+
+p{
+  color: #4b5045;
+  font-family: sans-serif monospace serif;
+  font-size: 1.1em;
+  padding-left: 100px;
+  text-align: justify;
+}
+.titulos {
+  color:#259c08;
+  font-family: monospace;
+  font-size: 3.2em;
+  border-top: #0d5718 solid 5px;
+  padding: 25px;
+  padding-left: 100px;
+
+}
+
+#primerparrafo{
+  color:#e68115;
+  font-family: verdana sans-serif serif;
+  font-size: 1.7em;
+}
+
+p strong{
+  color:#dde80a;
+  font-size: 1.5em;
+}
+.atencion{
+  background-color: #f4900b;
+  border: #036e04 dashed 2px;
+  margin-left:100px;
+
+}

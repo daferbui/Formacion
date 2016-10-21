@@ -1,0 +1,31 @@
+#colorcabecera{
+  background-color:#40dee0;
+}
+
+
+
+}
+#colordatos{
+  background-color: #c8185d;
+}
+li{
+  background-color: #e9e70f;
+  display:inline;
+}
+#barranav{
+  background-color: #f41811;
+}
+#barralateral{
+  background-color: #d713f0;
+  float: left;
+  height:1050px
+}
+#contenidoprincipal{
+  background-color:#7a0ee9;
+  margin-left: 280px;
+}
+#piepagina{
+  background-color:#af264f;
+  clear:both;
+  margin-top: 10px;
+}

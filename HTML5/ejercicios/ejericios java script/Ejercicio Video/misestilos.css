@@ -1,0 +1,23 @@
+
+
+
+li {
+  background:-webkit-linear-gradient(top,#66ac3b,#4cf411);
+  text-align: center;
+  width: 200px;
+  margin: 50px auto;
+  border-radius: 15px;
+  border:solid 2px  #6c6f62;
+  box-shadow: #5b6660 5px 5px 10px;
+  padding: 25px;
+  font-style: italic;
+  font-size: 15px;
+  text-shadow: #5f3767 5px 2px 5px;
+  color: white;
+
+
+}
+.letrasrojas{
+
+color: red;
+}
